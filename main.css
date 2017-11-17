@@ -433,6 +433,99 @@ float: left;
 }
 
 
+.connect {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background-color: white;
+  display: table;
+  top: 0;
+  background-attachment: fixed;
+}
 
-@media screen and (max-width:) {
+.divider4 {
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  font-size: 300%;
+  text-align: center;
+  height: 30px;
+  width: 100%;
+  margin-bottom: 70px;
+  padding-top: 50px;
+}
+
+.facebook {
+  height: 100px;
+  width: 100px;
+  float: left;
+  background: url(facebookIcon.png);
+  margin-left: 195px;
+  margin-top: 200px;
+}
+
+.email {
+  height: 100px;
+  width: 100px;
+  float: left;
+  background: url(emailIcon.png);
+  margin-left: 195px;
+  margin-top: 200px;
+}
+
+.github {
+  height: 100px;
+  width: 100px;
+  float: left;
+  background: url(githubIcon.png);
+  margin-left: 195px;
+  margin-top: 200px;
+}
+
+.linkedin {
+  height: 100px;
+  width: 100px;
+  float: left;
+  background: url(linkedinIcon.png);
+  margin-left: 195px;
+  margin-top: 200px;
+}
+
+.resume {
+  height: 100px;
+  width: 100px;
+  float: left;
+  background: url(resumeIcon.png);
+  margin-left: 195px;
+  margin-right: 195px;
+  margin-top: 200px;
+}
+
+@media screen and (max-width:1679px) {
+  .intro {
+    width: 100%;
+  }
+  .aboutme {
+    width: 100%;
+  }
+  .projects {
+    width: 100%;
+  }
+  .photography {
+    width: 100%;
+  }
+  .connect {
+    width: 100%;
+  }
+  .contentTopLeftBtn {
+    width: 50%;
+  }
+  .contentTopRightBtn {
+    width: 50%;
+  }
+  .contentBottomLeftBtn {
+    width: 50%;
+  }
+  .contentBottomRightBtn {
+    width: 50%;
+  }
 }
