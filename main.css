@@ -463,6 +463,10 @@ float: left;
   margin-top: 200px;
 }
 
+.facebook:hover {
+  box-shadow: 10px 10px 10px #000000;
+}
+
 .email {
   height: 100px;
   width: 100px;
@@ -470,6 +474,10 @@ float: left;
   background: url(emailIcon.png);
   margin-left: 195px;
   margin-top: 200px;
+}
+
+.email:hover {
+  box-shadow: 10px 10px 10px #000000;
 }
 
 .github {
@@ -481,6 +489,10 @@ float: left;
   margin-top: 200px;
 }
 
+.github:hover {
+  box-shadow: 10px 10px 10px #000000;
+}
+
 .linkedin {
   height: 100px;
   width: 100px;
@@ -488,6 +500,10 @@ float: left;
   background: url(linkedinIcon.png);
   margin-left: 195px;
   margin-top: 200px;
+}
+
+.linkedin:hover {
+  box-shadow: 10px 10px 10px #000000;
 }
 
 .resume {
@@ -498,6 +514,10 @@ float: left;
   margin-left: 195px;
   margin-right: 195px;
   margin-top: 200px;
+}
+
+.resume:hover {
+  box-shadow: 10px 10px 10px #000000;
 }
 
 @media screen and (max-width:1679px) {
