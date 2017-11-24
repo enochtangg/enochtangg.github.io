@@ -520,7 +520,7 @@ float: left;
   box-shadow: 10px 10px 10px #000000;
 }
 
-@media screen and (max-width:1679px) {
+@media screen and (max-width:1300px) {
   .nav {
     width: 100%;
   }
@@ -530,7 +530,7 @@ float: left;
   .fly-in-text li{
     width: 100%;
   }
-  .aboutme {
+  /*.aboutme {
     width: 100%;
   }
   .contentLeft {
@@ -560,4 +560,5 @@ float: left;
   .contentBottomRightBtn {
     width: 50%;
   }
+  */
 }
