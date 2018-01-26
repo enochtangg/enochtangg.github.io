@@ -76,3 +76,14 @@ if (process.env.NODE_ENV === 'production') {
     })
   ])
 }
+
+loaders: [
+      {
+        test: /\.es6$/,
+        exclude: /node_modules/,
+        loader: 'babel',
+        query: {
+          presets: ['es2015']
+        }
+      }
+    ]
