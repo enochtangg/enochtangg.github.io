@@ -1,0 +1,10 @@
+.title-background {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background: url("/pictures/title.jpg");
+  display: table;
+  top: 0;
+  background-size: cover;
+  background-attachment: fixed;
+}
