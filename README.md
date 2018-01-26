@@ -1,4 +1,4 @@
-# enoch-website
+# enochtangg.github.io
 
 > My personal website
 
