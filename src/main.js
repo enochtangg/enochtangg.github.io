@@ -13,12 +13,11 @@ import 'vue-material/dist/vue-material.min.css'
 import 'vue-material/dist/theme/black-green-light.css' // Theme
 
 
-import jQuery from 'jquery'
-global.jQuery = jQuery
-global.$ = jQuery
-
-
 Vue.use(VueMaterial)
+
+// jQuery plugin
+import 'expose-loader?$!expose-loader?jQuery!jquery'
+import stalactite from './scripts/jquery.stalactite.min'
 
 
 new Vue({
