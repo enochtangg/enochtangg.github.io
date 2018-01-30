@@ -17,7 +17,7 @@ Vue.use(VueMaterial)
 
 // jQuery plugin
 import 'expose-loader?$!expose-loader?jQuery!jquery'
-import stalactite from './scripts/jquery.stalactite.min'
+import stalactite from './plugins/jquery.stalactite.min'
 
 
 new Vue({

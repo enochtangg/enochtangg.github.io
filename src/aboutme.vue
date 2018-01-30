@@ -23,7 +23,8 @@
         </md-card-content>
 
         <md-card-actions>
-          <md-button>Learn More</md-button>
+          <!--<md-button>Learn More</md-button>-->
+          <a class="btn btn-floating deep-orange darken-1 pulse"><i class="material-icons">whatshot</i></a>
         </md-card-actions>
       </md-card>
 
@@ -52,5 +53,10 @@
   .fade-enter, .fade-leave-active {
     opacity: 0;
     transform: translateX(20px);
+  }
+
+  .md-card-actions {
+    padding-right: 10px;
+    padding-bottom: 10px;
   }
 </style>
