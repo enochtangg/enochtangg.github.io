@@ -8,7 +8,7 @@ const routes = []
 import Home from './home.vue'
 import AboutMe from './aboutme.vue'
 import Photography from './photography.vue'
-import Visualize from './visualize.vue'
+import Experience from './experience.vue'
 import Connect from './connect.vue'
 
 routes.push({
@@ -32,9 +32,9 @@ routes.push({
   component: Photography
 })
 routes.push({
-  name: 'visualize',
-  path: '/visualize',
-  component: Visualize
+  name: 'experience',
+  path: '/experience',
+  component: Experience
 })
 routes.push({
   name: 'connect',
