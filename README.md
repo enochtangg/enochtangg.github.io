@@ -2,5 +2,5 @@
 
 > My website with professional and person information about myself
 
-Visit my page here [a link](http://enochtang.me)
+Visit my page [here](http://enochtang.me)
 
