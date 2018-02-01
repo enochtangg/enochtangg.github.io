@@ -1,6 +1,7 @@
 # Personal Website
 
-My website with professional and personal information about myself
+My website with professional and personal information about myself.
 
-Visit my page [here](http://enochtang.me)
+Check out my page [here](http://enochtang.me)
+Website is currently in development*
 
