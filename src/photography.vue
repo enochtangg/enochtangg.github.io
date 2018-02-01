@@ -210,10 +210,9 @@
 
 <style scoped>
     .image_tile {
-        width: 24%;
-        margin: 0.5%;
+        width: 24.4%;
+        margin: 0.3%;
         display: inline-block;
-        vertical-align: top;
         top: 100px;
     }
 

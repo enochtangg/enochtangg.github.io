@@ -24,7 +24,7 @@
 
         <md-card-actions>
           <!--<md-button>Learn More</md-button>-->
-          <a class="btn btn-floating deep-orange darken-1 pulse"><i class="material-icons">whatshot</i></a>
+          <a class="btn btn-floating light-blue darken-2 pulse"><i class="material-icons">face</i></a>
         </md-card-actions>
       </md-card>
 
