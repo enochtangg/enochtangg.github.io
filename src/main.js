@@ -18,6 +18,7 @@ Vue.use(VueMaterial)
 // jQuery plugin
 import 'expose-loader?$!expose-loader?jQuery!jquery'
 import stalactite from './plugins/jquery.stalactite.min'
+import fancybox from './plugins/fancy-box/source/jquery.fancybox'
 
 
 new Vue({
