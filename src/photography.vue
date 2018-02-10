@@ -1,5 +1,12 @@
 <template>
     <div class="md-layout" id="container">
+        <md-content class="md-primary" id="header">
+            <div class="header-container">
+                <h1>Photography Collection</h1>
+                <p>In my spare time, I enjoy taking photos of random things in the world.</p>
+            </div>
+        </md-content>
+
         <md-card md-with-hover class="image_tile">
             <md-card-media-cover>
                 <md-card-media md-ratio="16:9">
@@ -221,4 +228,22 @@
         margin: auto;
     }
 
+    h1 {
+        font-size: 250%;
+    }
+
+    .header-container {
+        padding-left: 100px;
+        padding-top: 30px;
+        height: 200px;
+    }
+
+    #header {
+        width: 100%;
+    }
+
+    p {
+        font-size: 125%;
+        color: #CECECE;
+    }
 </style>
