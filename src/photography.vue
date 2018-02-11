@@ -3,7 +3,7 @@
         <md-content class="md-primary" id="header">
             <div class="header-container">
                 <h1>Photography Collection</h1>
-                <p>In my spare time, I enjoy taking photos of random things in the world.</p>
+                <p class="subheading"></p>
             </div>
         </md-content>
 
@@ -242,8 +242,8 @@
         width: 100%;
     }
 
-    p {
+    .subheading {
         font-size: 125%;
-        color: #CECECE;
+        color: #C1BFBF;
     }
 </style>
