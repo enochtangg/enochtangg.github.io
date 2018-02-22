@@ -3,7 +3,7 @@
         <md-content class="md-primary" id="header">
             <div class="header-container">
                 <h1>Photography Collection</h1>
-                <p class="subheading"></p>
+                <p class="subheading">Yes, I like taking photos...</p>
             </div>
         </md-content>
         <div class="md-layout" id="container">
@@ -232,8 +232,8 @@
         margin: auto;
     }
 
-    h1 {
-        font-size: 250%;
+        h1 {
+        font-size: 240%;
     }
 
     .header-container {
@@ -247,7 +247,9 @@
     }
 
     .subheading {
-        font-size: 125%;
+        font-size: 130%;
         color: #C1BFBF;
+        font-style: italic;
+        font-family: cursive;
     }
 </style>
