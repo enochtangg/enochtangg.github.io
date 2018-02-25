@@ -199,10 +199,14 @@
                 </md-card-media-cover>
             </md-card>
         </div>
+        <div class="tiny-gap"></div>
+        <footer-nav></footer-nav>
     </div>
 </template>
 
 <script>
+  import FooterNav from './footer.vue'
+
   export default {
     data() {
       return {
@@ -217,6 +221,9 @@
         }
       });
     },
+    components: {
+      FooterNav: FooterNav
+    }
   }
 </script>
 
@@ -252,5 +259,10 @@
         color: #C1BFBF;
         font-style: italic;
         font-family: cursive;
+    }
+
+    .tiny-gap {
+        width: 100%;
+        height: 10px;
     }
 </style>

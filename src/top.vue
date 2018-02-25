@@ -4,7 +4,6 @@
         <md-tab id="about-me" md-label="About Me" to="/aboutme"></md-tab>
         <md-tab id="experience" md-label="Experience" to="/experience"></md-tab>
         <md-tab id="photography" md-label="Photography" to="/photography"></md-tab>
-        <md-tab id="connect" md-label="Connect" to="/connect"></md-tab>
     </md-tabs>
 </template>
 
