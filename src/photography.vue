@@ -3,7 +3,8 @@
         <md-content class="md-primary" id="header">
             <div class="header-container">
                 <h1>Photography Collection</h1>
-                <p class="subheading">Yes, I like taking photos...</p>
+                <p class="subheading">One of my favourite things to do when visiting new places is to find different
+                    ways to capture the scene</p>
             </div>
         </md-content>
         <div class="md-layout" id="container">
@@ -232,7 +233,7 @@
         margin: auto;
     }
 
-        h1 {
+    h1 {
         font-size: 240%;
     }
 
