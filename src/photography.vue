@@ -241,7 +241,8 @@
     }
 
     h1 {
-        font-size: 240%;
+        font-size: 300%;
+        font-weight: 500;
     }
 
     .header-container {

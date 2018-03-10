@@ -40,17 +40,11 @@
                             undergraduate
                             student. I always enjoy learning new skills, trying out different foods, and picking up new
                             hobbies.
-                            Today, I am a software developer intern at a started called Terrene Inc. which aims to
-                            simplify
-                            big data through
+                            Today, I am a software developer intern at a start-up called Terrene Inc. which aims to
+                            simplify big data through
                             the use of neutral networks to produce predictive analysis. You could find more information
-                            about my past
-                            work experience and side projects on the next page. </p></div>
+                            about my past work experience and side projects on the next page. </p></div>
                     </md-card-content>
-
-                    <!--<md-card-actions>-->
-                    <!--<a class="btn btn-floating grey darken-3 pulse"><i class="material-icons">face</i></a>-->
-                    <!--</md-card-actions>-->
                 </md-card>
             </div>
         </div>
@@ -98,7 +92,8 @@
     }
 
     h1 {
-        font-size: 250%;
+        font-size: 300%;
+        font-weight: 500;
     }
 
     .header-container {
@@ -135,6 +130,8 @@
         font-size: 160%;
         font-weight: 300;
         letter-spacing: 2px;
+        line-height: 150%;
+
     }
 
     .wrapper {
@@ -152,6 +149,9 @@
         font-size: 135%;
         font-weight: 300;
         color: #212121;
+        text-align: center;
+        line-height: 150%;
+
     }
 
     @keyframes enlarge {
