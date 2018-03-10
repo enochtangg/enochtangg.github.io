@@ -23,7 +23,7 @@
                             <img src="/pictures/wall-portrait.png" alt="Avatar">
                         </md-avatar>
                         <md-card-header-text>
-                            <div class="md-title">Enoch Tang</div>
+                            <div class="md-title">Enoch Tang.</div>
                         </md-card-header-text>
                     </md-card-header>
                     <md-card-media>
@@ -130,7 +130,7 @@
         font-size: 160%;
         font-weight: 300;
         letter-spacing: 2px;
-        line-height: 150%;
+        line-height: 140%;
 
     }
 

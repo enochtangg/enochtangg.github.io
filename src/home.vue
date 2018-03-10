@@ -11,9 +11,7 @@
                     <li>H</li>
                 </ul>
             </div>
-            <!--<div class="large-gap"></div>-->
         </div>
-        <!--<footer-nav></footer-nav>-->
     </div>
 </template>
 
