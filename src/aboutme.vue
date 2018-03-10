@@ -23,7 +23,7 @@
                             <img src="/pictures/wall-portrait.png" alt="Avatar">
                         </md-avatar>
                         <md-card-header-text>
-                            <div class="md-title">Enoch Tang.</div>
+                            <div class="md-title">Enoch Tang - Developer</div>
                         </md-card-header-text>
                     </md-card-header>
                     <md-card-media>
