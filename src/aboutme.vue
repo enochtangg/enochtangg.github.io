@@ -3,7 +3,7 @@
         <div class="md-layout">
             <md-content class="md-primary" id="header">
                 <div class="header-container">
-                    <h1>My Passions and Personality</h1>
+                    <h1>Passions and Personality</h1>
                     <p class="subheading">Discover who I am as a person aside from being a Systems Design Engineer</p>
                 </div>
             </md-content>
@@ -23,7 +23,7 @@
                             <img src="/pictures/wall-portrait.png" alt="Avatar">
                         </md-avatar>
                         <md-card-header-text>
-                            <div class="md-title">Enoch Tang - Developer</div>
+                            <div class="md-title">Enoch Tang</div>
                         </md-card-header-text>
                     </md-card-header>
                     <md-card-media>
@@ -66,12 +66,6 @@
 </script>
 
 <style scoped>
-    .md-card {
-        width: 50%;
-        margin: auto;
-        top: 100px;
-    }
-
     .fade-enter-active, .fade-leave-active {
         transition: opacity 1s, transform 1s;
     }
@@ -79,38 +73,6 @@
     .fade-enter, .fade-leave-active {
         opacity: 0;
         transform: translateX(20px);
-    }
-
-    .md-card-actions {
-        padding-right: 10px;
-        padding-bottom: 10px;
-    }
-
-    #wrapper {
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    h1 {
-        font-size: 300%;
-        font-weight: 500;
-    }
-
-    .header-container {
-        padding-left: 100px;
-        padding-top: 30px;
-        height: 200px;
-    }
-
-    #header {
-        width: 100%;
-    }
-
-    .subheading {
-        font-size: 140%;
-        color: #C1BFBF;
-        font-style: italic;
-        font-family: cursive;
     }
 
     .fact-card {
@@ -135,7 +97,7 @@
     }
 
     .wrapper {
-        width: 90%;
+        width: 75%;
         margin: auto;
     }
 

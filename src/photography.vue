@@ -3,8 +3,7 @@
         <md-content class="md-primary" id="header">
             <div class="header-container">
                 <h1>Photography Collection</h1>
-                <p class="subheading">One of my favourite things to do when visiting new places is to find different
-                    ways to capture the scene</p>
+                <p class="subheading">Finding new ways to capture the scene of unfamiliar places</p>
             </div>
         </md-content>
         <div class="md-layout" id="container">
@@ -233,33 +232,6 @@
         margin: 0.3%;
         display: inline-block;
         top: 10px;
-    }
-
-    .md-layout {
-        width: 90%;
-        margin: auto;
-    }
-
-    h1 {
-        font-size: 300%;
-        font-weight: 500;
-    }
-
-    .header-container {
-        padding-left: 100px;
-        padding-top: 30px;
-        height: 200px;
-    }
-
-    #header {
-        width: 100%;
-    }
-
-    .subheading {
-        font-size: 130%;
-        color: #C1BFBF;
-        font-style: italic;
-        font-family: cursive;
     }
 
     .tiny-gap {

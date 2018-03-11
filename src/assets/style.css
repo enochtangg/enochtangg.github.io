@@ -1,0 +1,32 @@
+.md-card {
+    width: 50%;
+    margin: auto;
+    top: 100px;
+}
+
+#wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 300%;
+    font-weight: 500;
+}
+
+.header-container {
+    padding-left: 100px;
+    padding-top: 30px;
+    height: 200px;
+}
+
+#header {
+    width: 100%;
+}
+
+.subheading {
+    font-size: 140%;
+    color: #C1BFBF;
+    font-style: italic;
+    font-family: cursive;
+}
