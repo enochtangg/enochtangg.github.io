@@ -8,6 +8,8 @@
                 </div>
             </md-content>
 
+            <div class="tiny-gap"></div>
+
             <div class="fact-card">
                 <h2 class="content-title">A few fun facts about myself</h2>
                 <p class="content-content">I love a genuine bowl of Vietnamese phở, I train Muay Thai like it's
@@ -48,6 +50,7 @@
                 </md-card>
             </div>
         </div>
+        <div class="tiny-gap"></div>
         <div class="tiny-gap"></div>
         <footer-nav></footer-nav>
     </div>
@@ -124,11 +127,5 @@
             transform: scale(1);
         }
     }
-
-    .tiny-gap {
-        width: 100%;
-        height: 150px;
-    }
-
 
 </style>

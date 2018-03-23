@@ -30,3 +30,13 @@ h1 {
     font-style: italic;
     font-family: cursive;
 }
+
+.large-gap {
+    width: 100%;
+    height: 250px;
+}
+
+.tiny-gap {
+    width: 100%;
+    height: 80px;
+}
