@@ -54,7 +54,30 @@
                         </ul>
                     </div>
                     <div class="right-content">
-                        <img src="/pictures/terrene-logo.png" class="logo-picture hidden">
+                        <img src="/pictures/terrene-logo.png" class="terrene-picture hidden">
+                    </div>
+                </div>
+
+                <div class="immersify">
+                    <div class="left-content">
+                        <h2 class="experiences-header">Immersify</h2>
+                        <ul class="experiences-content">
+                            <p><b>Hackathon Developer</b> @ <b>McGill's McHacks</b> in <b>Feb 2018</b></p>
+                            <p>qwerty</p>
+                            <p><b>What were some of my contributions?</b></p>
+                            <li>&bull; qwerty
+                            </li>
+                            <li>&bull; qwerty
+                            </li>
+                            <li>&bull; qwerty
+                            </li>
+                            <li>&bull; qwerty
+                            </li>
+                            <p><b>Technologies:</b> qwerty </p>
+                        </ul>
+                    </div>
+                    <div class="right-content">
+                        <img src="/pictures/mchacks-logo.png" class="immersify-picuture hidden">
                     </div>
                 </div>
             </div>
@@ -74,8 +97,10 @@
     mounted() {
       $(document).on('scroll', function () {
         if ($(this).scrollTop() >= $('.terrene').position().top) {
-          $('.logo-picture').removeClass('hidden');
-          $('.logo-picture').addClass('animate');
+          $('.terrene-picture').removeClass('hidden').addClass('animate');
+        }
+        if ($(this).scrollTop() >= $('.immersify').position().top) {
+          $('.immersify-picuture').removeClass('hidden').addClass('animate');
         }
       })
     }
@@ -137,6 +162,7 @@
 
     .terrene {
         padding-top: 80px;
+        float: left;
     }
 
     .left-content {
@@ -165,20 +191,33 @@
         width: 50%;
     }
 
-    .logo-picture {
+    .terrene-picture {
         display: block;
         margin: 170px auto;
         vertical-align: middle;
         transform: scale(0)
     }
 
-    .logo-picture.hidden {
+    .immersify-picuture {
+        display: block;
+        margin: 170px auto;
+        vertical-align: middle;
+        transform: scale(0)
+    }
+
+    .terrene-picture.hidden {
         opacity: 0;
     }
 
-    .logo-picture.animate {
+    .animate {
         transition: 1s;
-        transform: scale(1)
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    .immersify {
+        padding-top: 80px;
+        float: left;
     }
 
 </style>
