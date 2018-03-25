@@ -63,17 +63,25 @@
                         <h2 class="experiences-header">Immersify</h2>
                         <ul class="experiences-content">
                             <p><b>Hackathon Developer</b> @ <b>McGill's McHacks</b> in <b>Feb 2018</b></p>
-                            <p>qwerty</p>
+                            <p>Immersify is a mobile and web application that works in conjunction with each other to
+                                visually scan text, provide a sentiment/emotional score pertaining to the text, and
+                                plays background instrumental music relating to that emotion. An example of a real life
+                                application of this project would be to integrate it with AR (eg, Google Glass) which
+                                would provide readers with real time background music to go along with their favorite
+                                novel. </p>
                             <p><b>What were some of my contributions?</b></p>
-                            <li>&bull; qwerty
+                            <li>&bull; Google Platform winner. Best use of Google Platform's API.
                             </li>
-                            <li>&bull; qwerty
+                            <li>&bull; Utilized Google Firebase, IBM Watson API queries and Google Vision API queries to
+                                integrate nicely with the web application.
                             </li>
-                            <li>&bull; qwerty
+                            <li>&bull; Architected a smooth pipeline between the mobile application, web application, and
+                                the database interactions
                             </li>
-                            <li>&bull; qwerty
+                            <li>&bull; Link to devpost <a href="https://devpost.com/software/immersify-mi3j6d" style="color: #2980b9;">here</a>
                             </li>
-                            <p><b>Technologies:</b> qwerty </p>
+                            <p><b>Technologies:</b> Angular2, Google Firebase, HTML/CSS/JS, Android Studio, Google
+                                Vision API, IBM Watson API, Spotify API </p>
                         </ul>
                     </div>
                     <div class="right-content">
