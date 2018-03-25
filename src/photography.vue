@@ -3,7 +3,7 @@
         <md-content class="md-primary" id="header">
             <div class="header-container">
                 <h1>Photography Collection</h1>
-                <p class="subheading">Finding new ways to capture the scene of unfamiliar places</p>
+                <p class="subheading">When I'm bored, I like to take pictures!</p>
             </div>
         </md-content>
         <div class="md-layout" id="container">

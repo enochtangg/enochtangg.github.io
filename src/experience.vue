@@ -17,11 +17,13 @@
                     high school. However, I later realized sheer importance of programming and how it is revolutionizing
                     our world today. We can accomplish so much more than the human brain by
                     utilizing computer programming. Therefore, I started to build a passion towards
-                    software development and problem solving.
+                    software development and machine learning.
                     Below you can find some of my past work experiences and side projects.</p>
             </div>
             <div class="large-gap"></div>
+
             <div class="experiences">
+
                 <div class="terrene">
                     <div class="left-content">
                         <h2 class="experiences-header">Terrene Inc.</h2>
@@ -75,10 +77,12 @@
                             <li>&bull; Utilized Google Firebase, IBM Watson API queries and Google Vision API queries to
                                 integrate nicely with the web application.
                             </li>
-                            <li>&bull; Architected a smooth pipeline between the mobile application, web application, and
+                            <li>&bull; Architected a smooth pipeline between the mobile application, web application,
+                                and
                                 the database interactions
                             </li>
-                            <li>&bull; Link to devpost <a href="https://devpost.com/software/immersify-mi3j6d" style="color: #2980b9;">here</a>
+                            <li>&bull; Link to devpost <a href="https://devpost.com/software/immersify-mi3j6d"
+                                                          style="color: #2980b9;">here</a>
                             </li>
                             <p><b>Technologies:</b> Angular2, Google Firebase, HTML/CSS/JS, Android Studio, Google
                                 Vision API, IBM Watson API, Spotify API </p>
@@ -86,6 +90,33 @@
                     </div>
                     <div class="right-content">
                         <img src="/pictures/mchacks-logo.png" class="immersify-picuture hidden">
+                    </div>
+                </div>
+
+                <div class="enochwebsite">
+                    <div class="left-content">
+                        <h2 class="experiences-header">enochtang.me</h2>
+                        <ul class="experiences-content">
+                            <p><b>Web Development </b> for <b>personal project</b> from <b>Dec 2017 - Feb 2018</b></p>
+                            <p>Enochtang.me is the website you are currently on! I decided to initiate
+                                this project to learn more about the front-end frameworks (specifically Vue). Through
+                                committing myself to this project, I was able to discover the different features of the
+                                Vue framework and practice UI/UX principles. </p>
+                            <p><b>What were some of my contributions?</b></p>
+                            <li>&bull; Conducted project from start to finish through the process of making two other
+                                website prototypes
+                            </li>
+                            <li>&bull; Honed Material Design skills to create a responsive website which is based on
+                                human centered design principles
+                            </li>
+                            <li>&bull; Considered SEO methods when developing website in order to improve ranking on
+                                search engine results
+                            </li>
+                            <p><b>Technologies:</b> Vue.js, Javascript, HTML/CSS, Material Design, jQuery </p>
+                        </ul>
+                    </div>
+                    <div class="right-content">
+                        <img src="/pictures/enoch-logo.png" class="enochwebsite-picuture hidden">
                     </div>
                 </div>
             </div>
@@ -109,6 +140,9 @@
         }
         if ($(this).scrollTop() >= $('.immersify').position().top) {
           $('.immersify-picuture').removeClass('hidden').addClass('animate');
+        }
+        if ($(this).scrollTop() >= $('.enochwebsite').position().top) {
+          $('.enochwebsite-picuture').removeClass('hidden').addClass('animate');
         }
       })
     }
@@ -175,7 +209,7 @@
 
     .left-content {
         float: left;
-        width: 50%;
+        width: 55%;
         padding-left: 5%;
     }
 
@@ -196,7 +230,7 @@
 
     .right-content {
         float: left;
-        width: 50%;
+        width: 45%;
     }
 
     .terrene-picture {
@@ -213,8 +247,11 @@
         transform: scale(0)
     }
 
-    .terrene-picture.hidden {
-        opacity: 0;
+    .enochwebsite-picuture {
+        display: block;
+        margin: 170px auto;
+        vertical-align: middle;
+        transform: scale(0)
     }
 
     .animate {
@@ -224,6 +261,11 @@
     }
 
     .immersify {
+        padding-top: 80px;
+        float: left;
+    }
+
+    .enochwebsite {
         padding-top: 80px;
         float: left;
     }
