@@ -119,8 +119,45 @@
                         <img src="/pictures/enoch-logo.png" class="enochwebsite-picuture hidden">
                     </div>
                 </div>
+
+                <div class="gangl">
+                    <div class="left-content">
+                        <h2 class="experiences-header">Gangl</h2>
+                        <ul class="experiences-content">
+                            <p><b>Product Designer </b> for <b>school project</b> from <b>Sep 2017 - Dec 2017</b></p>
+                            <p>The Gangl Workload Management System is primarily designed to be used by upper year
+                                undergraduate students enrolled in Canadian Universities and Colleges. Realistically,
+                                the system would be able to be used by all University/College students because it is
+                                designed to assist in the way they receive and access academic information. </p>
+                            <p><b>What were some of my contributions?</b></p>
+                            <li>&bull; Collaborated with 5 other members to launched project from start to finish by
+                                utilizing the entire design process
+                            </li>
+                            <li>&bull; Conducted extensive needs assessment research and user testing which improved
+                                overall usability of final product
+                            </li>
+                            <li>&bull; Developed low and medium fidelity prototypes using InVision and Android Studio
+                                before produce the final solution
+                            </li>
+                            <li>&bull; Pitched our idea/project to hundreds of students, professors, and small
+                                businesses which received outstanding feedback and results
+                            </li>
+                            <li>&bull; See the full project report <a href="/documents/gang-report.pdf" target="_blank"
+                                                                      style="color: #2980b9;">here</a>
+                            </li>
+                            <p><b>Technologies:</b> Invision, Android Studio, Java, Google Firebase, Photoshop, QFD,
+                                Design Process cycle</p>
+                        </ul>
+                    </div>
+                    <div class="right-content">
+                        <iframe src="https://www.youtube.com/embed/QaixSsK434s?rel=0"
+                                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen
+                                class="gangl-video hidden"></iframe>
+                    </div>
+                </div>
             </div>
         </div>
+        <div class="tiny-gap" style="background-color: #ecf0f1"></div>
         <footer-nav></footer-nav>
     </div>
 </template>
@@ -143,6 +180,9 @@
         }
         if ($(this).scrollTop() >= $('.enochwebsite').position().top) {
           $('.enochwebsite-picuture').removeClass('hidden').addClass('animate');
+        }
+        if ($(this).scrollTop() >= $('.gangl').position().top) {
+          $('.gangl-video').removeClass('hidden').addClass('animate');
         }
       })
     }
@@ -207,6 +247,21 @@
         float: left;
     }
 
+    .immersify {
+        padding-top: 80px;
+        float: left;
+    }
+
+    .enochwebsite {
+        padding-top: 80px;
+        float: left;
+    }
+
+    .gangl {
+        padding-top: 80px;
+        float: left;
+    }
+
     .left-content {
         float: left;
         width: 55%;
@@ -254,20 +309,19 @@
         transform: scale(0)
     }
 
+    .gangl-video {
+        padding-top: 160px;
+        float: left;
+        padding-left: 35px;
+        width: 90%;
+        height: 475px;
+        transform: scale(0)
+    }
+
     .animate {
         transition: 1s;
         transform: scale(1);
         opacity: 1;
-    }
-
-    .immersify {
-        padding-top: 80px;
-        float: left;
-    }
-
-    .enochwebsite {
-        padding-top: 80px;
-        float: left;
     }
 
 </style>

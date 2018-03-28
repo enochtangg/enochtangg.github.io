@@ -12,7 +12,7 @@
                                                                                      class="icon-size" id="icon3"></a>
                     <a href="https://github.com/enochtangg"> <img src="/pictures/github-icon.png" class="icon-size"
                                                                   id="icon4"></a>
-                    <a href="/pictures/resume-file.pdf" download><img src="/pictures/resume-icon.png" class="icon-size"
+                    <a href="/documents/resume-file.pdf" download><img src="/pictures/resume-icon.png" class="icon-size"
                                                                       id="icon5"></a>
                     <a href="mailto:enoch.tang@hotmail.com"><img src="/pictures/mail-icon.png" class="icon-size"
                                                                  id="icon6"></a>
