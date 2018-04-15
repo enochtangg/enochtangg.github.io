@@ -96,14 +96,13 @@
 
     #overview {
         margin: auto;
-        width: 80%;
+        width: 65%;
     }
 
     .overview-content {
         font-size: 135%;
         font-weight: 300;
         color: #212121;
-        text-align: center;
         line-height: 150%;
 
     }
