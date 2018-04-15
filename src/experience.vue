@@ -40,17 +40,17 @@
                             </li>
                             <li>&bull; Optimized the neural network training by dynamically adjusting
                                 hidden layers according to the loss after each epoch which significantly reduced
-                                overfitting and improved overall accuracy
+                                overfitting and improved overall accuracy.
                             </li>
                             <li>
                                 &bull; Implemented algorithms that compiled datasets by scraping APIs and querying PostgreSQL
-                                data which was faster than previous scraper's compile time by 75%
+                                data which was faster than previous scraper's compile time by 75%.
                             </li>
                             <li>&bull; Updated key features to Terrene's Python SDK including a working authentication
-                                system that communicates with Terrene API
+                                system that communicates with Terrene API.
                             </li>
                             <li>&bull; Developed the frontend UI and functionality for clientele portal using the Vue.js
-                                framework
+                                framework.
                             </li>
                             <p><b>Technologies:</b> Full-Stack Development, Python, Django, Vue.js, Postgres, Pandas,
                                 Machine Learning, Keras, SciKit, Docker, AWS, Jinja </p>
@@ -79,8 +79,7 @@
                                 integrate nicely with the web application.
                             </li>
                             <li>&bull; Architected a smooth pipeline between the mobile application, web application,
-                                and
-                                the database interactions
+                                and the database interactions.
                             </li>
                             <li>&bull; Link to devpost <a href="https://devpost.com/software/immersify-mi3j6d"
                                                           style="color: #2980b9;">here</a>
@@ -105,13 +104,13 @@
                                 Vue framework and practice UI/UX principles. </p>
                             <p><b>What were some of my contributions?</b></p>
                             <li>&bull; Conducted project from start to finish through the process of making two other
-                                website prototypes
+                                website prototypes.
                             </li>
                             <li>&bull; Honed Material Design skills to create a responsive website which is based on
-                                human centered design principles
+                                human centered design principles.
                             </li>
                             <li>&bull; Considered SEO methods when developing website in order to improve ranking on
-                                search engine results
+                                search engine results.
                             </li>
                             <p><b>Technologies:</b> Vue.js, Javascript, HTML/CSS, Material Design, jQuery </p>
                         </ul>
@@ -132,16 +131,16 @@
                                 designed to assist in the way they receive and access academic information. </p>
                             <p><b>What were some of my contributions?</b></p>
                             <li>&bull; Collaborated with 5 other members to launched project from start to finish by
-                                utilizing the entire design process
+                                utilizing the entire design process.
                             </li>
                             <li>&bull; Conducted extensive needs assessment research and user testing which improved
-                                overall usability of final product
+                                overall usability of final product.
                             </li>
                             <li>&bull; Developed low and medium fidelity prototypes using InVision and Android Studio
-                                before produce the final solution
+                                before produce the final solution.
                             </li>
                             <li>&bull; Pitched our idea/project to hundreds of students, professors, and small
-                                businesses which received outstanding feedback and results
+                                businesses which received outstanding feedback and results.
                             </li>
                             <li>&bull; See the full project report <a href="/documents/gang-report.pdf" target="_blank"
                                                                       style="color: #2980b9;">here</a>
