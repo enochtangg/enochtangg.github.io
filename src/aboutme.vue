@@ -104,7 +104,6 @@
         font-weight: 300;
         color: #212121;
         line-height: 150%;
-
     }
 
 </style>
