@@ -13,7 +13,7 @@
             <div class="fact-card">
                 <h2 class="content-title">A few fun facts about myself</h2>
                 <p class="content-content">I love a genuine bowl of Vietnamese phở, I train Muay Thai like it's
-                    a lifestyle, my favourite film series is Star Wars, I'm not a huge fan of listening to
+                    a lifestyle, my favourite film directory is Christopher Nolan, I'm not a huge fan of listening to
                     popular music, I enjoy taking photographs of random things, I recently started a hobby in reading,
                     and I've had my appendix removed.</p>
             </div>
@@ -69,20 +69,10 @@
 </script>
 
 <style scoped>
-    .fade-enter-active, .fade-leave-active {
-        transition: opacity 1s, transform 1s;
-    }
-
-    .fade-enter, .fade-leave-active {
-        opacity: 0;
-        transform: translateX(20px);
-    }
-
     .fact-card {
         margin: auto;
         width: 50%;
         padding-top: 50px;
-        animation: enlarge 1s;
     }
 
     .content-title {
@@ -107,7 +97,6 @@
     #overview {
         margin: auto;
         width: 80%;
-        animation: enlarge 2s;
     }
 
     .overview-content {
@@ -117,15 +106,6 @@
         text-align: center;
         line-height: 150%;
 
-    }
-
-    @keyframes enlarge {
-        from {
-            transform: scale(0);
-        }
-        to {
-            transform: scale(1);
-        }
     }
 
 </style>

@@ -29,24 +29,25 @@
                         <h2 class="experiences-header">Terrene Inc.</h2>
                         <ul class="experiences-content">
                             <p><b>Software Developer</b> @ <b>Terrene</b> from <b>Jan 2018 - Apr 2018</b></p>
-                            <p>Terrene is a predictive analytics engine that provide businesses the ability to train
-                                machine
-                                learning model on their data with a press of a button. Through this software, businesses
-                                can
-                                see insights, visualize the predictions, and start improving the
-                                efficiency of their business. </p>
+                            <p>Terrene is a predictive analytics engine that provide businesses with no knowledge of
+                                programming or data science the ability to train machine learning model on their data
+                                in less than 30 seconds. Through this software, businesses can see insights, visualize
+                                the predictions, and start improving the efficiency of their business based on the
+                                forecasting of their data. </p>
                             <p><b>What were some of my contributions?</b></p>
-                            <li>&bull; Architected and developed the entire metadata extraction/aggregation process
-                                which
-                                feeds
-                                Terrene certain metadata about a client's model and ultimately optimizes model quality.
+                            <li>&bull; Architected the entire metadata extraction/aggregation process which provided
+                                users with the optimal parameters for their machine learning models.
                             </li>
-                            <li>&bull; Optimized the neural network model training by dynamically adjusting
-                                hidden layers with respect to the loss after each epoch which significantly reduced
+                            <li>&bull; Optimized the neural network training by dynamically adjusting
+                                hidden layers according to the loss after each epoch which significantly reduced
                                 overfitting and improved overall accuracy
                             </li>
-                            <li>&bull; Implemented and updated key features to Terrene's Python SDK according to the new
-                                changes made on version 2.0 of our backend/REST API
+                            <li>
+                                &bull; Implemented algorithms that compiled datasets by scraping APIs and querying PostgreSQL
+                                data which was faster than previous scraper's compile time by 75%
+                            </li>
+                            <li>&bull; Updated key features to Terrene's Python SDK including a working authentication
+                                system that communicates with Terrene API
                             </li>
                             <li>&bull; Developed the frontend UI and functionality for clientele portal using the Vue.js
                                 framework
@@ -281,6 +282,7 @@
 
     li {
         padding-bottom: 15px;
+         letter-spacing: 1px;
     }
 
     .right-content {

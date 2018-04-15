@@ -4,15 +4,15 @@
             <div class="row">
                 <h5 class="white-text" id="header">Find out more by connecting with me on social media</h5>
                 <div class="icon-container">
-                    <a href="https://www.facebook.com/enoch.tang.5"><img src="/pictures/facebook-icon.png"
+                    <a href="https://www.facebook.com/enoch.tang.5" target="_blank"><img src="/pictures/facebook-icon.png"
                                                                          class="icon-size" id="icon1"></a>
-                    <a href="https://www.instagram.com/enoch_tangg/"><img src="/pictures/instagram-icon.png"
+                    <a href="https://www.instagram.com/enochtangg/" target="_blank"><img src="/pictures/instagram-icon.png"
                                                                           class="icon-size" id="icon2"></a>
-                    <a href="https://www.linkedin.com/in/enoch-tang-a132a8153/"><img src="/pictures/linkedin-icon.png"
+                    <a href="https://www.linkedin.com/in/enoch-tang-a132a8153/" target="_blank"><img src="/pictures/linkedin-icon.png"
                                                                                      class="icon-size" id="icon3"></a>
-                    <a href="https://github.com/enochtangg"> <img src="/pictures/github-icon.png" class="icon-size"
+                    <a href="https://github.com/enochtangg" target="_blank"> <img src="/pictures/github-icon.png" class="icon-size"
                                                                   id="icon4"></a>
-                    <a href="/documents/resume-file.pdf" download><img src="/pictures/resume-icon.png" class="icon-size"
+                    <a href="/documents/resume-file.pdf" target="_blank"><img src="/pictures/resume-icon.png" class="icon-size"
                                                                       id="icon5"></a>
                     <a href="mailto:enoch.tang@hotmail.com"><img src="/pictures/mail-icon.png" class="icon-size"
                                                                  id="icon6"></a>
