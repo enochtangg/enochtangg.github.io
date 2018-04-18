@@ -137,7 +137,7 @@
                                 overall usability of final product.
                             </li>
                             <li>&bull; Developed low and medium fidelity prototypes using InVision and Android Studio
-                                before produce the final solution.
+                                before producing the final solution.
                             </li>
                             <li>&bull; Pitched our idea/project to hundreds of students, professors, and small
                                 businesses which received outstanding feedback and results.
