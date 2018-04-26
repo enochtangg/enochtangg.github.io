@@ -14,10 +14,10 @@
             <div class="fact-card">
                 <h2 class="content-title">Striving to be a better developer day by day</h2>
                 <p class="content-content">I was never programming prodigy, nor was I a programming enthusiast in
-                    high school. However, I later realized sheer importance of programming and how it is revolutionizing
-                    our world today. We can accomplish so much more than the human brain by
+                    high school. However, I later realized how it is revolutionizing our world today and how fun
+                    it actually is! We can accomplish so much more than the human brain by
                     utilizing computer programming. Therefore, I started to build a passion towards
-                    software development and machine learning.
+                    web development and machine learning.
                     Below you can find some of my past work experiences and side projects.</p>
             </div>
             <div class="large-gap"></div>
