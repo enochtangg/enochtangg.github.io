@@ -13,7 +13,7 @@
             <div class="fact-card">
                 <h2 class="content-title">A few fun facts about myself</h2>
                 <p class="content-content">I love a genuine bowl of Vietnamese phở, I train Muay Thai like it's
-                    a lifestyle, my favourite film directory is Christopher Nolan, I'm not a huge fan of listening to
+                    a lifestyle, my favourite film director is Christopher Nolan, I'm not a huge fan of listening to
                     popular music, I enjoy taking photographs of random things, I recently started a hobby in reading,
                     and I've had my appendix removed.</p>
             </div>
@@ -34,15 +34,15 @@
                     <md-card-content>
                         <div><p class="overview-content">
                             Considering this website is not Search Engine Optimized, I'd like to congratulate you for
-                            find
-                            it!
-                            My name is Enoch and welcome to a small website I made from scratch as a side project.
+                            finding it!
+                            My name is Enoch and welcome to a small website I made from scratch as a side project to
+                            familiarize myself with the Vue.js framework.
                             With a passion to change the world through programming and design, I am
                             currently studying Systems Design Engineering at the University of Waterloo as an
                             undergraduate
                             student. I always enjoy learning new skills, trying out different foods, and picking up new
                             hobbies.
-                            Today, I am a software developer intern at a start-up called Terrene Inc. which aims to
+                            Today, I am a software developer at a start-up called Terrene Inc. which aims to
                             simplify big data through
                             the use of neutral networks to produce predictive analysis. You could find more information
                             about my past work experience and side projects on the next page. </p></div>
