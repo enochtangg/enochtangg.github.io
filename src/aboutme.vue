@@ -29,7 +29,7 @@
                         </md-card-header-text>
                     </md-card-header>
                     <md-card-media>
-                        <img src="/pictures/enochtang.png">
+                        <img src="/pictures/ig-enoch.jpg">
                     </md-card-media>
                     <md-card-content>
                         <div><p class="overview-content">
