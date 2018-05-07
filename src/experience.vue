@@ -35,22 +35,20 @@
                                 the predictions, and start improving the efficiency of their business based on the
                                 forecasting of their data. </p>
                             <p><b>What were some of my contributions?</b></p>
-                            <li>&bull; Architected the entire metadata extraction/aggregation process which provided
-                                users with the optimal parameters for their machine learning models.
+                            <li>&bull; Implemented neural network algorithms using Keras which significantly reduced
+                                overfitting by 60%; used by customers to make business predictions.
                             </li>
-                            <li>&bull; Optimized the neural network training by dynamically adjusting
-                                hidden layers according to the loss after each epoch which significantly reduced
-                                overfitting and improved overall accuracy.
+                            <li>&bull; Created machine learning pipelines on customer metadata using Django,
+                                PostgreSQL, AWS, Pandas, and ML libraries.
                             </li>
                             <li>
-                                &bull; Implemented algorithms that compiled datasets by scraping APIs and querying PostgreSQL
-                                data which was faster than previous scraper's compile time by 75%.
+                                &bull; Developed algorithms that scrape data from APIs and querying PostgreSQL
+                                which was 80% more efficient than previous methods.
                             </li>
                             <li>&bull; Updated key features to Terrene's Python SDK including a working authentication
                                 system that communicates with Terrene API.
                             </li>
-                            <li>&bull; Developed the frontend UI and functionality for clientele portal using the Vue.js
-                                framework.
+                            <li>&bull; Added key features to a custom clientele portal in VueJS, allowing customers to visual data easier
                             </li>
                             <p><b>Technologies:</b> Full-Stack Development, Python, Django, Vue.js, Postgres, Pandas,
                                 Machine Learning, Keras, SciKit, Docker, AWS, Jinja </p>
