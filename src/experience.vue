@@ -18,7 +18,8 @@
                     it actually is! We can accomplish so much more than the human brain by
                     utilizing computer programming. Therefore, I started to build a passion towards
                     web development and machine learning.
-                    Below you can find some of my past work experiences and side projects.</p>
+                    Below you can find some of my past work experiences and side projects. Source code for projects can
+                    be found on my github.</p>
             </div>
             <div class="large-gap"></div>
 
@@ -50,12 +51,45 @@
                             </li>
                             <li>&bull; Added key features to a custom clientele portal in VueJS, allowing customers to visual data easier
                             </li>
-                            <p><b>Technologies:</b> Full-Stack Development, Python, Django, Vue.js, Postgres, Pandas,
-                                Machine Learning, Keras, SciKit, Docker, AWS, Jinja </p>
+                            <p><b>Technologies:</b> Full-Stack Development, Django, Vue.js, Postgres, Pandas,
+                                ML Libraries, Keras, SciKit, Docker, AWS, Jinja </p>
                         </ul>
                     </div>
                     <div class="right-content">
                         <img src="/pictures/terrene-logo.png" class="terrene-picture hidden">
+                    </div>
+                </div>
+
+                <div class="theatreshare">
+                    <div class="left-content">
+                        <h2 class="experiences-header">TheatreShare</h2>
+                        <ul class="experiences-content">
+                            <p><b>Full Stack Developer</b> for <b>personal project</b> from <b>April 2018 - May 2018</b></p>
+                            <p>The TheatreShare web-application (written with Vue and Django) that allows users to
+                                create "auditorium" rooms to watch
+                                videos and chat with friends in real time. I initiated this project in hopes to learn
+                                more about the architecture of WebSockets and how django-channels and redis integrates
+                                with the app.</p>
+                            <p><b>What did I do?</b></p>
+                            <li>&bull; Created full web-app that allows users to watch videos and chat together
+                                in real time using Django, Redis, SQLite3 and VueJS
+                            </li>
+                            <li>&bull; Developed server REST APIs to handle authentication and manage user data
+                            </li>
+                            <li>
+                                &bull; Implemented WebSockets by using Django-channels to establish a two way
+                                communication between server and client
+                            </li>
+                            <li>&bull; Architected entire frontend from scratch by using VueJS and integrated it with the backend
+                            </li>
+                            <li>&bull; Source code can be found on my github <a href="https://github.com/enochtangg" target="_blank"
+                                                                      style="color: #2980b9;">here</a>
+                            </li>
+                            <p><b>Technologies:</b> Django, Vue.js, Redis, django-channels, vue-sockiet.io </p>
+                        </ul>
+                    </div>
+                    <div class="right-content">
+                        <img src="/pictures/popcorn-icon.png" class="theatreshare-picture hidden">
                     </div>
                 </div>
 
@@ -100,7 +134,7 @@
                                 this project to learn more about the front-end frameworks (specifically Vue). Through
                                 committing myself to this project, I was able to discover the different features of the
                                 Vue framework and practice UI/UX principles. </p>
-                            <p><b>What were some of my contributions?</b></p>
+                            <p><b>What did I do?</b></p>
                             <li>&bull; Conducted project from start to finish through the process of making two other
                                 website prototypes.
                             </li>
@@ -172,6 +206,9 @@
       $(document).on('scroll', function () {
         if ($(this).scrollTop() >= $('.terrene').position().top) {
           $('.terrene-picture').removeClass('hidden').addClass('animate');
+        }
+        if ($(this).scrollTop() >= $('.theatreshare').position().top) {
+          $('.theatreshare-picture').removeClass('hidden').addClass('animate');
         }
         if ($(this).scrollTop() >= $('.immersify').position().top) {
           $('.immersify-picuture').removeClass('hidden').addClass('animate');
@@ -245,6 +282,11 @@
         float: left;
     }
 
+    .theatreshare {
+        padding-top: 80px;
+        float: left;
+    }
+
     .immersify {
         padding-top: 80px;
         float: left;
@@ -288,6 +330,13 @@
     }
 
     .terrene-picture {
+        display: block;
+        margin: 170px auto;
+        vertical-align: middle;
+        transform: scale(0)
+    }
+
+    .theatreshare-picture {
         display: block;
         margin: 170px auto;
         vertical-align: middle;
