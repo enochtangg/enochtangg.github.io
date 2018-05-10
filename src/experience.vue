@@ -64,7 +64,7 @@
                     <div class="left-content">
                         <h2 class="experiences-header">TheatreShare</h2>
                         <ul class="experiences-content">
-                            <p><b>Full Stack Developer</b> for <b>personal project</b> from <b>April 2018 - May 2018</b></p>
+                            <p><b>Web Developer</b> for <b>personal project</b> from <b>April 2018 - May 2018</b></p>
                             <p>The TheatreShare web-application (written with Vue and Django) that allows users to
                                 create "auditorium" rooms to watch
                                 videos and chat with friends in real time. I initiated this project in hopes to learn
