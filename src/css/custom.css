@@ -1,16 +1,40 @@
 h1 {
-    font-size: 300%;
+    font-size: 320%;
     font-family: 'Raleway', sans-serif;
 }
 
-p {
+.description-content {
     font-family: 'Roboto', sans-serif;
+    font-weight: 30;
 }
 
-#test {
-    padding-left: 30px;
+.typer-content {
+    color: #b3b3b3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 120%;
+}
+
+.main-content {
+    padding-left: 7%;
+    padding-top: 10%;
+    float: left;
 }
 
 #portrait {
     background-color: black;
+}
+
+.cursor{
+    animation: 0.8s linear infinite blinkTextCursor;
+}
+
+@keyframes blinkTextCursor {
+0% {
+    visibility: hidden;
+}
+50% {
+    visibility: hidden;
+}
+100% {
+    visibility: visible;
 }
