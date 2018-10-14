@@ -5,7 +5,7 @@ h1 {
 
 .description-content {
     font-family: 'Roboto', sans-serif;
-    font-weight: 30;
+    color: #b3b3b3;
 }
 
 html, body, .main {
@@ -24,16 +24,47 @@ html, body, .main {
 }
 
 .typer-content {
-    color: #b3b3b3;
-    font-family: 'Roboto', sans-serif;
+    font-size: 150%;
+    border-right: .1em solid rgb(244, 78, 79)
+    ;
+    animation: blink-cursor .5s step-end infinite;
+}
+
+.basic-info-content {
     font-size: 120%;
-    border-right: .1em solid red;
-    animation: blink-cursor .4s step-end infinite;
 }
 
 @keyframes blink-cursor {
     from, to { border-color: transparent }
-    50% { border-color: red; }
+    50% { border-color: rgb(244, 78, 79)
+        ; }
+}
+
+.links {
+    color: rgb(244, 78, 79);
+}
+
+.links-text {
+    letter-spacing: 1px;
+    font-size: 95%;
+}
+
+a:link {
+    color: rgb(244, 78, 79);
+    text-decoration: none; 
+}
+a:visited {
+    color: rgb(244, 78, 79);
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+
+    text-decoration: none;
+}
+a:active {
+    color: rgb(244, 78, 79);
+    text-decoration: none;
 }
 
 .temp {
