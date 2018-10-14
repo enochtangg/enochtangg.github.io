@@ -8,33 +8,38 @@ h1 {
     font-weight: 30;
 }
 
-.typer-content {
-    color: #b3b3b3;
-    font-family: 'Roboto', sans-serif;
-    font-size: 120%;
+html, body, .main {
+    height: 100%;
 }
 
 .main-content {
     padding-left: 7%;
-    padding-top: 10%;
+    padding-top: 12%;
     float: left;
+    height: 100%;
 }
 
 #portrait {
     background-color: black;
 }
 
-.cursor{
-    animation: 0.8s linear infinite blinkTextCursor;
+.typer-content {
+    color: #b3b3b3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 120%;
+    border-right: .1em solid red;
+    animation: blink-cursor .4s step-end infinite;
 }
 
-@keyframes blinkTextCursor {
-0% {
-    visibility: hidden;
+@keyframes blink-cursor {
+    from, to { border-color: transparent }
+    50% { border-color: red; }
 }
-50% {
-    visibility: hidden;
+
+.temp {
+    display: block;
+    background-color: black;
+    background-size: cover;
+    height: 100%;
 }
-100% {
-    visibility: visible;
-}
+

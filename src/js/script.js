@@ -18,10 +18,10 @@ TxtType.prototype.tick = function() {
     this.txt = fullTxt.substring(0, this.txt.length + 1);
     }
 
-    this.el.innerHTML = '<span class="typer-content">'+this.txt+'<span class="cursor">|</span></span>';
+    this.el.innerHTML = '<span class="typer-content">'+this.txt+'</span>';
 
     var that = this;
-    var delta = 170 - Math.random() * 100;
+    var delta = 110 - Math.random() * 100;
 
     if (this.isDeleting) { delta /= 2; }
 
