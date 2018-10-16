@@ -1,6 +1,17 @@
+html, body, .main {
+    height: 100%;
+}
+
 h1 {
     font-size: 320%;
     font-family: 'Raleway', sans-serif;
+}
+
+.main-content {
+    padding-left: 7%;
+    padding-top: 12%;
+    height: 100%;
+    float: left;
 }
 
 .description-content {
@@ -8,30 +19,14 @@ h1 {
     color: #b3b3b3;
 }
 
-html, body, .main {
-    height: 100%;
-}
-
-.main-content {
-    padding-left: 7%;
-    padding-top: 12%;
-    float: left;
-    height: 100%;
-}
-
-#portrait {
-    background-color: black;
+.basic-info-content {
+    font-size: 120%;
 }
 
 .typer-content {
     font-size: 150%;
-    border-right: .1em solid rgb(244, 78, 79)
-    ;
+    border-right: .1em solid rgb(244, 78, 79);
     animation: blink-cursor .5s step-end infinite;
-}
-
-.basic-info-content {
-    font-size: 120%;
 }
 
 @keyframes blink-cursor {
@@ -72,10 +67,39 @@ a:active {
     height: 90px;
 }
 
-.temp {
-    display: block;
-    background-color: black;
+.portrait-image {
+    max-height: none;
+    min-height: 100%;
+    width: 100%;
     background-size: cover;
-    height: 100%;
+    max-width: none;
+    background-image: url(../assets/pictures/portrait-desktop.jpg);
 }
 
+/* Media Queries  */
+@media (max-width: 768px) { 
+    .portrait-image {
+        background-image: url(../assets/pictures/portrait-transition768.jpg);
+        height: 400px;
+        width: 100%;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 600px) { 
+    .portrait-image {
+        background-image: url(../assets/pictures/portrait-transition600.jpg);
+        height: 400px;
+        width: 100%;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 375px) { 
+    .portrait-image {
+        background-image: url(../assets/pictures/portrait-mobile.jpg);
+        height: 400px;
+        width: 100%;
+        background-size: cover;
+    }
+}
