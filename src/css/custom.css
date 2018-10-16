@@ -1,16 +1,156 @@
+html, body, .main {
+    height: 100%;
+}
+
 h1 {
-    font-size: 300%;
+    font-size: 320%;
     font-family: 'Raleway', sans-serif;
 }
 
-p {
+.main-content {
+    padding-left: 7%;
+    padding-top: 12%;
+    height: 100%;
+    float: left;
+}
+
+.description-content {
     font-family: 'Roboto', sans-serif;
+    color: #b3b3b3;
 }
 
-#test {
-    padding-left: 30px;
+.basic-info-content {
+    font-size: 120%;
 }
 
-#portrait {
-    background-color: black;
+.typer-content {
+    font-size: 150%;
+    border-right: .1em solid rgb(244, 78, 79);
+    animation: blink-cursor .5s step-end infinite;
+}
+
+@keyframes blink-cursor {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(244, 78, 79)
+        ; }
+}
+
+.links {
+    color: rgb(244, 78, 79);
+}
+
+.links-text {
+    letter-spacing: 1px;
+    font-size: 95%;
+}
+
+a:link {
+    color: rgb(244, 78, 79);
+    text-decoration: none; 
+}
+a:visited {
+    color: rgb(244, 78, 79);
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+
+    text-decoration: none;
+}
+a:active {
+    color: rgb(244, 78, 79);
+    text-decoration: none;
+}
+
+.tiny-gap {
+    width: 100%;
+    height: 90px;
+}
+
+.portrait-content {
+    animation: fadeIn 4s;
+}
+
+.portrait-image {
+    max-height: none;
+    min-height: 100%;
+    width: 100%;
+    background-size: cover;
+    max-width: none;
+    background-image: url(../assets/pictures/portrait-desktop.jpg);
+}
+
+/* Fading animation on load */
+#fade-title {
+    animation: fadeIn 1s;
+}
+
+#fade-description {
+    animation: fadeIn 1.75s;
+}
+
+#fade-link1 {
+    animation: fadeIn 2.5s;
+}
+
+#fade-link2 {
+    animation: fadeIn 3.25s;
+}
+
+#fade-link3 {
+    animation: fadeIn 4s;
+}
+
+#fade-link4 {
+    animation: fadeIn 4.75s;
+}
+
+#fade-link5 {
+    animation: fadeIn 5.5s;
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Media Queries  */
+@media (max-width: 768px) { 
+    .portrait-image {
+        background-image: url(../assets/pictures/portrait-transition768.jpg);
+        height: 400px;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .main-content { 
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) { 
+    .portrait-image {
+        background-image: url(../assets/pictures/portrait-transition600.jpg);
+        height: 400px;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .main-content { 
+        text-align: center;
+    }
+}
+
+@media (max-width: 375px) { 
+    .portrait-image {
+        background-image: url(../assets/pictures/portrait-mobile.jpg);
+        height: 400px;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .main-content { 
+        text-align: center;
+    }
 }

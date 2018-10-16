@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
@@ -15,29 +15,49 @@
     <link rel="stylesheet" type="text/css" href="./css/custom.css">
     <link rel="stylesheet" type="text/scss" href="./scss/style.scss">
 
-    <title>Hello, world!</title>
+    <!-- Font Awesome icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+    <!-- Browser Tab Icon-->
+    <link rel="icon" href="./assets/pictures/boxing-icon.png">
+
+    <title>Enoch Tang</title>
   </head>
   <body>
-    <!-- THINGS TO REDESIGN LATER:
-      choose google fonts wisely
-      choose emoji wisely-->
+    <div class="main">
+      <div class="row h-100">
+        <div class="col-md-7 order-md-2 no-gutters portrait-content">
+          <div class="portrait-image"></div>
+        </div>
 
-    <div class="landing-page">
-      <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-6 text-center pt-6"> 
-              <h1> Hi, I'm Enoch 👋 </h1>
-              <p>hello</p>
-            </div>
-            <div class="col-md-6">
-              <img src="./assets/pictures/portrait.jpg" alt="main-portrait">
+        <div class="col-md-5 main-content">
+            <h1 id="fade-title"> Hi, I'm Enoch 🥊 </h1>
+            <div class="description-content">
+                <p class="typewrite" data-period="1150" data-type='[ "software engineer.", "full-stack developer.", "muay thai enthusiast." ]'>
+                    <span class="typer-content"></span>
+                </p>
+                <div class="basic-info-content" id="fade-description">
+                  <p>studying systems design engineering @ uWaterloo</p>
+                </div>
+                <div class="tiny-gap"></div>
+                <div class="links">
+                  <p class="links-text">
+                    <a href="https://www.linkedin.com/in/enoch-tang/" target="_blank" id="fade-link1"><i class="fab fa-linkedin-in"></i> LinkedIn</a> | 
+                    <a href="https://github.com/enochtangg" target="_blank" id="fade-link2"><i class="fab fa-github"></i> Github</a> | 
+                    <a href="./assets/documents/resume_pdf.pdf" target="_blank" id="fade-link3"><i class="far fa-file-alt"></i> Resume</a> | 
+                    <a href="mailto:enoch.tang@hotmail.com" id="fade-link4"><i class="far fa-envelope"></i> Email</a> | 
+                    <a href="https://www.instagram.com/enochtangg/" target="_blank" id="fade-link5"><i class="fab fa-instagram"></i> Instagram</a></p>
+                </div>
+                
             </div>
           </div>
-        </div>
+      </div>
     </div>
     
 
-    <!-- Optional JavaScript -->
+    <!-- Custom JavaScript -->
+    <script src="./js/script.js"></script>
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
