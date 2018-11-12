@@ -68,7 +68,7 @@ a:active {
 }
 
 .portrait-content {
-    animation: fadeIn 2s;
+    animation: fadeIn 1.5s;
 }
 
 .portrait-image {
@@ -86,27 +86,27 @@ a:active {
 }
 
 #fade-description {
-    animation: fadeIn 1.75s;
+    animation: fadeIn 1.25s;
 }
 
 #fade-link1 {
-    animation: fadeIn 2.5s;
+    animation: fadeIn 1.5s;
 }
 
 #fade-link2 {
-    animation: fadeIn 3.25s;
+    animation: fadeIn 1.75s;
 }
 
 #fade-link3 {
-    animation: fadeIn 4s;
+    animation: fadeIn 2s;
 }
 
 #fade-link4 {
-    animation: fadeIn 4.75s;
+    animation: fadeIn 2.25s;
 }
 
 #fade-link5 {
-    animation: fadeIn 5.5s;
+    animation: fadeIn 2.5s;
 }
 
 
@@ -116,6 +116,45 @@ a:active {
 }
 
 /* Media Queries  */
+@media (max-width: 1320px) { 
+    .portrait-image {
+        background-image: url(../assets/pictures/portrait-transition1320.jpg);
+        height: 400px;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .main-content { 
+        text-align: center;
+    }
+}
+
+@media (max-width: 1140px) { 
+    .portrait-image {
+        background-image: url(../assets/pictures/portrait-transition1140.jpg);
+        height: 400px;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .main-content { 
+        text-align: center;
+    }
+}
+
+@media (max-width: 1010px) { 
+    .portrait-image {
+        background-image: url(../assets/pictures/portrait-transition1010.jpg);
+        height: 400px;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .main-content { 
+        text-align: center;
+    }
+}
+
 @media (max-width: 768px) { 
     .portrait-image {
         background-image: url(../assets/pictures/portrait-transition768.jpg);
