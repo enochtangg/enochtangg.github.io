@@ -1,6 +1,6 @@
-# Personal Website
+# enochtangg.github.io
 
-My website with professional and personal information about myself.
+My website with information about myself.
 
-Website is currently in development/redesign**
+https://enochtangg.github.io/
 
