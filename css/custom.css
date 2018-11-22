@@ -1,3 +1,8 @@
+body::after{
+    position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
+    content:url(../assets/pictures/portrait-desktop.jpg) url(../assets/pictures/portrait-transition1470.jpg) url(../assets/pictures/portrait-transition1320.jpg) url(../assets/pictures/portrait-transition1270.jpg) url(../assets/pictures/portrait-transition1110.jpg) url(../assets/pictures/portrait-transition1010.jpg) url(../assets/pictures/portrait-transition768.jpg) url(../assets/pictures/portrait-transition600.jpg) url(../assets/pictures/portrait-mobile.jpg);
+}
+
 html, body, .main {
     height: 100%;
 }
@@ -116,6 +121,15 @@ a:active {
 }
 
 /* Media Queries  */
+@media (max-width: 1470px) { 
+    .portrait-image {
+        background-image: url(../assets/pictures/portrait-transition1470.jpg);
+        height: 400px;
+        width: 100%;
+        background-size: cover;
+    }
+}
+
 @media (max-width: 1320px) { 
     .portrait-image {
         background-image: url(../assets/pictures/portrait-transition1320.jpg);
@@ -123,22 +137,23 @@ a:active {
         width: 100%;
         background-size: cover;
     }
-
-    .main-content { 
-        text-align: center;
-    }
 }
 
-@media (max-width: 1140px) { 
+@media (max-width: 1270px) { 
     .portrait-image {
-        background-image: url(../assets/pictures/portrait-transition1140.jpg);
+        background-image: url(../assets/pictures/portrait-transition1270.jpg);
         height: 400px;
         width: 100%;
         background-size: cover;
     }
+}
 
-    .main-content { 
-        text-align: center;
+@media (max-width: 1110px) { 
+    .portrait-image {
+        background-image: url(../assets/pictures/portrait-transition1110.jpg);
+        height: 400px;
+        width: 100%;
+        background-size: cover;
     }
 }
 
@@ -148,10 +163,6 @@ a:active {
         height: 400px;
         width: 100%;
         background-size: cover;
-    }
-
-    .main-content { 
-        text-align: center;
     }
 }
 
