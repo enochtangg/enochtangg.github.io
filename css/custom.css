@@ -166,6 +166,15 @@ a:active {
     }
 }
 
+@media (max-width: 925px) { 
+    .portrait-image {
+        background-image: url(../assets/pictures/portrait-transition925.jpg);
+        height: 400px;
+        width: 100%;
+        background-size: cover;
+    }
+}
+
 @media (max-width: 768px) { 
     .portrait-image {
         background-image: url(../assets/pictures/portrait-transition768.jpg);
