@@ -188,9 +188,48 @@ a:active {
     }
 }
 
+@media (max-width: 665px) { 
+    .portrait-image {
+        background-image: url(../assets/pictures/portrait-transition665.jpg);
+        height: 400px;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .main-content { 
+        text-align: center;
+    }
+}
+
 @media (max-width: 600px) { 
     .portrait-image {
         background-image: url(../assets/pictures/portrait-transition600.jpg);
+        height: 400px;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .main-content { 
+        text-align: center;
+    }
+}
+
+@media (max-width: 555px) { 
+    .portrait-image {
+        background-image: url(../assets/pictures/portrait-transition555.jpg);
+        height: 400px;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .main-content { 
+        text-align: center;
+    }
+}
+
+@media (max-width: 470px) { 
+    .portrait-image {
+        background-image: url(../assets/pictures/portrait-transition470.jpg);
         height: 400px;
         width: 100%;
         background-size: cover;
