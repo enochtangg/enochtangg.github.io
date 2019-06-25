@@ -1,6 +1,6 @@
 body::after{
     position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
-    content:url(../assets/pictures/portrait-desktop.jpg) url(../assets/pictures/portrait-transition1470.jpg) url(../assets/pictures/portrait-transition1320.jpg) url(../assets/pictures/portrait-transition1270.jpg) url(../assets/pictures/portrait-transition1110.jpg) url(../assets/pictures/portrait-transition1010.jpg) url(../assets/pictures/portrait-transition768.jpg) url(../assets/pictures/portrait-transition600.jpg) url(../assets/pictures/portrait-mobile.jpg);
+    content:url(../assets/pictures/portrait.jpg)
 }
 
 html, body, .main {
@@ -77,12 +77,14 @@ a:active {
 }
 
 .portrait-image {
-    max-height: none;
     min-height: 100%;
+    
+    max-width: 100%;
     width: 100%;
+    display:block; 
+    background-image: url(../assets/pictures/portrait.jpg);
     background-size: cover;
-    max-width: none;
-    background-image: url(../assets/pictures/portrait-desktop.jpg);
+    background-position: center center;
 }
 
 /* Fading animation on load */
@@ -120,64 +122,10 @@ a:active {
     to { opacity: 1; }
 }
 
-/* Media Queries  */
-@media (max-width: 1470px) { 
-    .portrait-image {
-        background-image: url(../assets/pictures/portrait-transition1470.jpg);
-        height: 400px;
-        width: 100%;
-        background-size: cover;
-    }
-}
-
-@media (max-width: 1320px) { 
-    .portrait-image {
-        background-image: url(../assets/pictures/portrait-transition1320.jpg);
-        height: 400px;
-        width: 100%;
-        background-size: cover;
-    }
-}
-
-@media (max-width: 1270px) { 
-    .portrait-image {
-        background-image: url(../assets/pictures/portrait-transition1270.jpg);
-        height: 400px;
-        width: 100%;
-        background-size: cover;
-    }
-}
-
-@media (max-width: 1110px) { 
-    .portrait-image {
-        background-image: url(../assets/pictures/portrait-transition1110.jpg);
-        height: 400px;
-        width: 100%;
-        background-size: cover;
-    }
-}
-
-@media (max-width: 1010px) { 
-    .portrait-image {
-        background-image: url(../assets/pictures/portrait-transition1010.jpg);
-        height: 400px;
-        width: 100%;
-        background-size: cover;
-    }
-}
-
-@media (max-width: 925px) { 
-    .portrait-image {
-        background-image: url(../assets/pictures/portrait-transition925.jpg);
-        height: 400px;
-        width: 100%;
-        background-size: cover;
-    }
-}
 
 @media (max-width: 768px) { 
     .portrait-image {
-        background-image: url(../assets/pictures/portrait-transition768.jpg);
+        background-image: url(../assets/pictures/portrait.jpg);
         height: 400px;
         width: 100%;
         background-size: cover;
@@ -188,67 +136,5 @@ a:active {
     }
 }
 
-@media (max-width: 665px) { 
-    .portrait-image {
-        background-image: url(../assets/pictures/portrait-transition665.jpg);
-        height: 400px;
-        width: 100%;
-        background-size: cover;
-    }
 
-    .main-content { 
-        text-align: center;
-    }
-}
 
-@media (max-width: 600px) { 
-    .portrait-image {
-        background-image: url(../assets/pictures/portrait-transition600.jpg);
-        height: 400px;
-        width: 100%;
-        background-size: cover;
-    }
-
-    .main-content { 
-        text-align: center;
-    }
-}
-
-@media (max-width: 555px) { 
-    .portrait-image {
-        background-image: url(../assets/pictures/portrait-transition555.jpg);
-        height: 400px;
-        width: 100%;
-        background-size: cover;
-    }
-
-    .main-content { 
-        text-align: center;
-    }
-}
-
-@media (max-width: 470px) { 
-    .portrait-image {
-        background-image: url(../assets/pictures/portrait-transition470.jpg);
-        height: 400px;
-        width: 100%;
-        background-size: cover;
-    }
-
-    .main-content { 
-        text-align: center;
-    }
-}
-
-@media (max-width: 375px) { 
-    .portrait-image {
-        background-image: url(../assets/pictures/portrait-mobile.jpg);
-        height: 400px;
-        width: 100%;
-        background-size: cover;
-    }
-
-    .main-content { 
-        text-align: center;
-    }
-}
