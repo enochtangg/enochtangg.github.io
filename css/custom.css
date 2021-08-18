@@ -1,6 +1,6 @@
 body::after{
     position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
-    content:url(../assets/pictures/portrait2.jpg)
+    content:url(../assets/pictures/portrait3.jpg)
 }
 
 html, body, .main {
@@ -134,7 +134,7 @@ a:active {
 
 @media (max-width: 768px) { 
     .portrait-image {
-        background-image: url(../assets/pictures/portrait2.jpg);
+        background-image: url(../assets/pictures/portrait3.jpg);
         height: 400px;
         width: 100%;
         background-size: cover;
